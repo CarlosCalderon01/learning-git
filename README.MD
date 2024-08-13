@@ -10,7 +10,7 @@
 
 - 01: Learn how to install and configure my Git.
 
-![Header](.\src\custom\img\00_commands.jpg)
+![Header](./src\custom\img\00_commands.jpg)
 
 # Commands List
 
