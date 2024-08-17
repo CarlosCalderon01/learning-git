@@ -16,6 +16,20 @@
 
 | Command | Description |
 | :-----: | :-----: |
+| git branch nameNewBranch | crea una nueva rama |
+| git branch | lista las ramas |
+| git branch -a | listar ramas del remoto |
+| git branch -r | ? |
+| git checkout | ? |
+| git checkout -b nombre-de-la-rama | crear y cambia a la rama |
+| git checkout nameBranch | cambiar a la rama nombrada |
+| git remote -v | ver origen del repo |
+| git log --oneline | ver ultimo commit |
+| git log --oneline -5 | ver ultimos n commits |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 |  |  |
 |  |  |
 
