@@ -1,0 +1,62 @@
+
+# // ----- // ----- // ----- // ----- // ----- // ----- // ----- //
+# // ----- // CONFIGURACION DE LA RED WIFI
+# // ----- // ----- // ----- // ----- // ----- // ----- // ----- //
+
+# 1. Primero, asegúrate de que el servicio iwd (iNet wireless daemon) esté activo. Esto es esencial para gestionar conexiones Wi-Fi usando iwctl.
+
+systemctl start iwd
+
+# 2. Luego, abre la interfaz de línea de comandos de iwd para poder gestionar las conexiones Wi-Fi.
+
+iwctl
+
+# 3. Dentro de iwctl, puedes ver las interfaces de red inalámbrica disponibles en tu sistema.
+
+station list
+
+# 4. Selecciona la interfaz Wi-Fi que deseas usar (por ejemplo, wlan0) y escanea las redes disponibles.
+
+station wlan0 scan
+
+# 5. Después de escanear, muestra la lista de redes Wi-Fi disponibles para la interfaz seleccionada.
+
+station wlan0 get-networks
+
+# 6. Conéctate a la red Wi-Fi deseada proporcionando el SSID de la red. Si la red está protegida, se te pedirá la contraseña.
+
+station wlan0 connect 'MOVISTAR_FIBRA_PLUS_55C0'
+
+# 7. Una vez conectado, puedes salir de la interfaz de iwctl.
+
+exit
+
+# 8. Finalmente, prueba la conexión a Internet haciendo un ping a un sitio web, como Google.
+
+ping google.com
+
+# // ----- // ----- // ----- // ----- // ----- // ----- // ----- //
+# // ----- // PROCESO DE ISNTALACION Y CONFIGURACION
+# // ----- // ----- // ----- // ----- // ----- // ----- // ----- //
+
+Use this comands for to start install arch linux
+
+    archinstall
+
+yo usare configuracione estandar
+
+entorno de escritorio para Arch Linux:
+
+    Xfce4 --> sencillo
+
+kernel para Arch Linux:
+
+    use por defecto pero el lts esta bien
+
+password root and usar
+
+    2734717xD
+
+Al final de todo usar reboot para reiniciar el pc:
+
+    reboot
