@@ -1,89 +1,28 @@
-# Summary
 
-- This programming project was created with one purpose: to facilitate and help my understanding of Git, through teaching and educating new programmers.
+# Resumen
 
-# General objective
+- Notas y consejos para un buen entorno de desarrollo.
 
-- learn git professionally
+# Objetivos generales
 
-# Topics List
+- Establecer las bases para un buen ambiente de desarrollo.
 
-- 01 - Configuration Commands
-- 02 - Commands List
+# Objetivos específicos
 
-![Header](./src/custom/img/00_commands.jpg)
+- Aprender a utilizar Git.
 
-# 01 - Configuration Commands
+- Aprender a utilizar WSL (Windows sub-System for Linux).
 
-| Command                                   | Description                                                          |
-| :---------------------------------------: | :------------------------------------------------------------------: |
-| `git config --list`                       | Muestra la configuración actual de Git                                |
-| `git config --global user.name "YourUserNickName"`   | Configura el nombre de usuario global                                 |
-| `git config --global user.email "YourUserEmailName@Email.com"` | Configura el correo electrónico global                              |
-| `ssh-keygen -t ed25519 -C "YourUserEmailName@Email.com"` | Genera una clave SSH usando el correo electrónico para identificación |
-| `ssh -T git@github.com`                   | Verifica la conexión SSH con GitHub                                   |
-| `C:\Users\YourUserExamplePc\.ssh`         | Ubicación predeterminada de las claves SSH en Windows                 |
-| `config` (SSH config file)                | Archivo de configuración SSH personalizado para múltiples hosts       |
+- Aprender a utilizar Linux.
 
-# Installation Steps
+# Bibliografía
 
-1. **Download Git:**
-   - Go to: https://git-scm.com/downloads
-   - Download and install the version for your OS. Use default options.
-   
-2. **Check current configuration:**
-   - Use `git config --list` to see the current configuration.
-   
-3. **Set up your user details:**
-   - Set global username and email using:
-     - `git config --global user.name "YourUserNickName"`
-     - `git config --global user.email "YourUserEmailName@Email.com"`
+- [Link_01](https://learn.microsoft.com/es-es/windows/wsl/basic-commands)
 
-4. **Generate an SSH key:**
-   - Generate an SSH key using your email for identification:
-     - `ssh-keygen -t ed25519 -C "YourUserEmailName@Email.com"`
-   - Locate the file in the `.ssh` folder, e.g., `C:\Users\YourUserExamplePc\.ssh`.
+- [Link_02](https://git-scm.com/downloads)
 
-5. **Add your SSH public key to GitHub:**
-   - Add the generated SSH key to your GitHub account in the SSH settings.
+- [Link_03](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-6. **Verify the connection:**
-   - Use the command `ssh -T git@github.com` to verify the SSH connection to GitHub.
-
-# 02 - Commands List
-
-| Command                              | Description                                                       |
-| :-----------------------------------: | :---------------------------------------------------------------- |
-| `git branch nameNewBranch`            | Crea una nueva rama                                                |
-| `git branch`                          | Lista todas las ramas locales                                      |
-| `git branch -a`                       | Lista todas las ramas (locales y remotas)                          |
-| `git branch -r`                       | Lista las ramas remotas                                            |
-| `git branch -l`                       | Lista las ramas locales                                            |
-| `git checkout`                        | Cambia a la rama indicada                                          |
-| `git checkout -b nombre-de-la-rama`   | Crea y cambia a la rama nueva                                      |
-| `git checkout nameBranch`             | Cambia a la rama nombrada                                          |
-| `git checkout develop`                | Cambia a la rama 'develop'                                         |
-| `git remote -v`                       | Ver el origen del repositorio remoto                               |
-| `git log --oneline`                   | Ver el último commit                                               |
-| `git log --oneline -5`                | Ver los últimos 5 commits                                          |
-| `git clone <URL>`                     | Clonar un repositorio desde la URL                                 |
-| `git remote add origin <URL>`         | Asociar un repositorio local con un repositorio remoto             |
-| `git push origin <branch>`            | Subir los cambios de una rama local al repositorio remoto          |
-| `git pull origin <branch>`            | Descargar y fusionar los cambios del remoto a tu rama local        |
-| `git push --set-upstream origin <branch>` | Subir una nueva rama que no existe en el repositorio remoto     |
-| `git reset --hard HEAD`               | Restaurar al último commit de tu rama actual                       |
-| `git merge <feature-branch>`          | Fusionar una rama (ejemplo: `feature/update-project-settings`)     |
-| `git pull origin develop`             | Actualizar la rama actual con los cambios de 'develop'             |
-| `git push origin develop`             | Subir los cambios a la rama 'develop' en el repositorio remoto     |
-
-# Acutalizar mi repositorio
-
-- If you don't understand my explanation or if you want to learn more on your own, you can check the official git page. and access your own documentation:
-
-# Bibliography
-
-- [Git Downloads](https://git-scm.com/downloads)
-
-- [GitHub SSH Key Documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+- [Link_04](https://learn.microsoft.com/en-us/windows/wsl/setup/environment)
 
 # End

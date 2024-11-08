@@ -1,4 +1,6 @@
 
+Apuntes para instalar arch linux, primero configuracion de red para conectarce a internet, luego instalacion de arch linux
+
 # // ----- // ----- // ----- // ----- // ----- // ----- // ----- //
 # // ----- // CONFIGURACION DE LA RED WIFI
 # // ----- // ----- // ----- // ----- // ----- // ----- // ----- //
@@ -60,3 +62,24 @@ password root and usar
 Al final de todo usar reboot para reiniciar el pc:
 
     reboot
+
+// --------------------------------------------------------------------------------------------------------------- //
+
+Commands for linux
+
+sudo apt update && sudo apt upgrade
+
+sudo apt update && sudo apt upgrade && sudo apt autoremove
+
+
+pwd
+
+cd nameFolder
+cd ..
+cd /
+cd ~
+
+ls
+    ls -l
+    ls -a
+    ls -la
