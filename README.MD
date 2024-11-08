@@ -17,12 +17,12 @@
 
 # Bibliografía
 
-- [Link_01](https://learn.microsoft.com/es-es/windows/wsl/basic-commands)
+- [Link_01; Basic Commands](https://learn.microsoft.com/es-es/windows/wsl/basic-commands)
 
-- [Link_02](https://git-scm.com/downloads)
+- [Link_02; Downloads git](https://git-scm.com/downloads)
 
-- [Link_03](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+- [Link_03; Generar ssh para git](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-- [Link_04](https://learn.microsoft.com/en-us/windows/wsl/setup/environment)
+- [Link_04; Configurar WSL](https://learn.microsoft.com/en-us/windows/wsl/setup/environment)
 
 # End
